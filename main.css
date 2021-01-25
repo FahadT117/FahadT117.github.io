@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
-/* Add a black background color to the top navigation */
+div {
+    word-wrap: break-word;
+  }
+
 .topnav {
 
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: black;
@@ -16,7 +18,7 @@
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+
   .topnav a:hover {
     background-color: navy;
     color: black;
